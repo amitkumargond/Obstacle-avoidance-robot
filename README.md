@@ -1,5 +1,5 @@
 # Obstacle-avoidance-robot
-This robot uses 5 ultrasonic sensors and servo motor as a steering and can go autonomously by avoiding collisions.
+This robot uses 5 ultrasonic sensors and servo motor as a steering and can go autonomously by avoiding collisions. The arduino code is as follows:
 #include<Servo.h>
 Servo myservo;
 const int pingPin1 = 2; // Trigger Pin of Ultrasonic Sensor1
